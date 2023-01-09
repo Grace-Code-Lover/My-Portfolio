@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grace's Portfolio</title>
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  </head>
+  <body onload="document.body.style.opacity='1'">
+    <!-- Header -->
+    <header class="page-header">
+      <h1 class="page-header_item logo_item">
+        <a href="index.html" role="logo"> EDGP</a>
+      </h1>
+
+      <nav class="main-navigation page-header_item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list_item navigation-list_item--active"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list_item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="#portfolio-container"
+              role="menuitem"
+              class="navigation-list_item"
+              >Projects</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="#contact-container"
+              role="menuitem"
+              class="navigation-list_item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+
+    <main class="main-container" id="main-container">
+      <section class="main-container_item main-container_item--left">
+        <header>
+          <h1 class="main-container_item--left_title" id="heading">
+            Hi, my name is <span class="name-highlight">Grace</span>,
+          </h1>
+        </header>
+
+        <p
+          class="main-container_item--left_text"
+          alt="introduction about the author"
+        >
+        I am Master's student in Computer Science (Software Engineering) at the University of
+        Douala. I am passionate about programming, more precisely,
+        software development. I have acquired multiple skills and professional experience in this domain at school, during my internships and short-term employments in startups and in a local company.
+        I love highliting my strengths and implementing them in diversified fields and with excellent outcomes. 
+        I have a team spirit reason why I am always voted as the group leader in many spheres.
+        One strong point I have is that I exercise both in French and English.
+        </p>
+
+        <a
+          href="https://www.linkedin.com/in/grace-enyegue-6b38bb170?"
+          class="main-container_item--left_button"
+          alt="Link to LinkedIn profile"
+          >Let's Connect
+ 
+        </a>
+        
+      </section>
+      <section class="main-container_item main-container_item--right">
+        <img
+          src="./img/photo_2023-01-09_19-36-52.jpg"
+          alt="Hero image of character sitting using laptop"
+          class="main-container_item--right_image profile_potrait"
+        />
+      </section>
+    </main>
+
+    <!-- Projects -->
+
+    <div class="portfolio-container" id="portfolio-container">
+      <header>
+        <h1>Recent Projects <i class="fa-solid fa-code"></i></h1>
+      </header>
+      <div class="projects-grid">
+        <div class="project_items">
+          <header>
+            <h2>Glem's Collection <i class="fa-solid fa-cart-shopping"></i></h2>
+          </header>
+          <p>
+            An online sales web application that makes it easy to manage the sale and purchase of clothing online.
+            (Mobile and Desktop Version)
+          </p>
+          <a
+            href="https://glems.cyclic.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project_items--link"
+            ><button class="project_button">View Web App</button></a
+          >
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project_items--link"
+            ><button class="project_button">Source Code</button></a
+          >
+        </div>
+        <div class="project_items">
+          <header>
+            <h2>Udemy Clone <i class="fa-solid fa-graduation-cap"></i></h2>
+          </header>
+          <p>
+            Inorder to exercise my skills, I made a clone of the Udemy Online Learning Website.
+            (Desktop Site)
+          </p>
+          <a
+            href="https://grace-enyegue-module-6.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><button class="project_button">View Website</button></a
+          >
+          <a
+            href="https://github.com/Grace-Code-Lover/Grace_Module_6_Assnmt"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><button class="project_button">Source Code</button></a
+          >
+        </div>
+        <div class="project_items">
+          <header>
+            <h2>Netflix Clone <i class="fa-solid fa-clapperboard"></i></h2>
+          </header>
+          <p>
+            Inorder to exercise my skills, I made a clone of the Netflix Movies Website.
+            (Desktop site)
+          </p>
+          <a
+            href="https://grace-code-lover.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><button class="project_button">View Website</button></a
+          >
+          <a href="https://github.com/Grace-Code-Lover/Grace-Code-Lover.github.io" target="_blank" rel="noopener noreferrer"
+            ><button class="project_button">Source Code</button></a
+          >
+        </div>
+
+        <div class="project_items">
+          <header>
+            <h2>Instagram Clone <i class="fa-brands fa-square-instagram"></i></h2>
+          </header>
+          <p>
+            Inorder to exercise my skills, I made a clone of the Instagram Log In Page and HomePage
+            (Mobile and Desktop site)
+          </p>
+          <div class="project-image" id="pokedex-image"></div>
+          <a
+            href="https://grace-enyegue-insta-clone.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><button class="project_button">Log In</button></a
+          >
+          <a
+            href="https://grace-module-7-assignment.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><button class="project_button">HomePage</button></a
+          >
+          <a
+            href="https://github.com/Grace-Code-Lover/Grace_Module_7_Assnmt"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><button class="project_button">Source Code</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-container" id="contact-container">
+      <h1>Contact <i class="fa-solid fa-address-card"></i></h1>
+      <div class="contact-grid">
+        <div class="contact-items">
+          <h2>Get in touch</h2>
+          <p>
+            I'm currently looking for new opportunities, my inbox is always
+            open.
+          </p>
+          <a href="mailto:gracenyegue@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/grace-enyegue-6b38bb170" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="contact-items">
+          <h2>My Resume</h2>
+          <p>You can download my Resume here.</p>
+          <a
+            href="https://drive.google.com/file/d/1-FDhqoszzRiNlt5YemptxeONJ89pvXnE/view?usp=drivesdk"
+            target="_blank"
+            alt="Link to download Resume in PDF format"
+            rel="noopener noreferrer"
+            ><button class="project-btn">Download <i class="fa-solid fa-download"></i></button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a
+          href="https://github.com/Grace-Code-Lover/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            class="footer-item-git"
+            src="img/githubRepo.svg"
+            alt="Github-icon"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/grace-enyegue-6b38bb170"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            class="footer-item-linkedin"
+            src="img/linkedIn.svg"
+            alt="LinkedIn-icon"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
